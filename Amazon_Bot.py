@@ -17,7 +17,6 @@ products = driver.find_elements('xpath','//div[@data-component-type="s-search-re
 
 for product in products:
     product.find_element(By.TAG_NAME,'a').click()
-
     driver.switch_to.window(driver.window_handles[1])
     try:
         title = driver.find_element(By.ID,'productTitle').text
@@ -53,4 +52,4 @@ for product in products:
     driver.close()
     driver.switch_to.window(driver.window_handles[0])
 df = pd.DataFrame(data)
-df.to_csv("D:/Mini_Project_3yr/amazon.csv", header= field, encoding='utf-8', mode='w')
+df.to_csv("D:\WebScrapperBot/amazon.csv", header= field, encoding='utf-8', mode='w')
