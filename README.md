@@ -2,9 +2,7 @@
 # WebScrapperBot
 
 Web scraping is an automated process of gathering public data. A webpage scraper automatically extracts large amounts of public data from target websites in seconds. 
-
-This is a basic version of Web scrapping Program which scratches data from the amazon website and store it in a CSV file.
-
+This project presents a simple yet effective web scraping program designed to extract data from the Amazon website and store it in a CSV file. 
 
 ## Features
 
